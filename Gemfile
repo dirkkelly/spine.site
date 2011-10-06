@@ -17,8 +17,7 @@ gem 'nestful', :git => 'git://github.com/maccman/nestful.git'
 gem 'omniauth', :git => 'git://github.com/intridea/omniauth.git'
 gem 'rdiscount'
 
-group :development do 
-  gem 'sqlite3'
+group :development do
   gem 'heroku'
   gem 'ruby-debug19', :require => 'ruby-debug'
 end
@@ -26,8 +25,4 @@ end
 group :test do
   # Pretty printed test output
   gem 'turn', :require => false
-end
-
-group :production do
-  gem 'pg'
 end
